@@ -1,10 +1,10 @@
 body {
-    font-family: inherit;
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-    background-color: lavender;
-    text-align: justify;
+    font-family: inherit;/* Define a fonte de texto para ser a mesma que a fonte usada no elemento pai */
+    font-size: 15px;/* Define o tamanho da fonte para 15 pixels */
+    margin: 0;/* Remove margens externas */
+    padding: 0;/* Remove preenchimento interno */
+    background-color: lavender; /* Define a cor de fundo como "lavender" (um tom claro de roxo) */
+    text-align: justify;  /* Define o alinhamento do texto como justificado (o texto se espalhará uniformemente nas margens) */
 }
 
 .linha-horizontal {
@@ -23,58 +23,54 @@ body {
   
 }
 header {
-    
-    color: darkmagenta;
-    text-align: center;
-    padding: 20px;
+    color: darkmagenta; /* Define a cor do texto como "darkmagenta" */
+    text-align: center;/* Centraliza o texto horizontalmente */
+    padding: 20px;/* Adiciona preenchimento interno de 20 pixels ao redor do elemento <header> */
 }
 
 h1 {
-    font-size: 36px;
-    margin: 0;
+    font-size: 36px; /* Define o tamanho da fonte como 36 pixels */
+    margin: 0; /* Remove a margem superior e inferior do elemento <h1> */
 }
-h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
-    margin: 0;
-    
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/* Define a família de fontes preferida com uma lista de alternativas */
+    font-size: 25px;  /* Define o tamanho da fonte como 25 pixels */
+    margin: 0; /* Remove a margem superior e inferior do elemento <h2> */
 }
+
 
 .container {
-    display: flex;
+    display: flex;  /* Usa um layout flexível e distribui o espaço entre os filhos com espaço entre eles */
     justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
+    padding: 20px; /* Adiciona preenchimento interno de 20 pixels ao redor do elemento com a classe "container" */
+    max-width: 1200px; /* Define a largura máxima como 1200 pixels e centraliza horizontalmente */
     margin: 0 auto;
-    text-align: justify;
+    text-align: justify;/* Define o alinhamento do texto como justificado */
 }
 
+
 .column {
-    flex: 1;
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin: 10px;
+    flex: 1;  /* Usa o espaço disponível de forma flexível */
+    background-color: white; 
+    padding: 20px; /* Adiciona preenchimento interno de 20 pixels ao redor do elemento com a classe "column" */
+    border: 1px solid #ccc;  /* Adiciona uma borda sólida com 1 pixel de largura e cor cinza (#ccc) */
+    margin: 10px;  /* Adiciona uma margem de 10 pixels ao redor do elemento com a classe "column" */
     text-align: justify;
 }
 
 .column h2 {
-    color:lightslategray;
+    color: lightslategray;
 }
 
 .column ul {
-    list-style-type: disc; /* Define o tipo de marcador como bolinha preenchida */
+    list-style-type: disc;   /* Define o tipo de marcador como bolinha preenchida */
 }
 
 .column ul li {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
+    margin-bottom: 10px; /* Adiciona espaço inferior de 10 pixels entre os itens da lista */
 }
 
 .clear {
-    clear: both;
+    clear: both; /* Define uma classe "clear" para limpar elementos flutuantes (clear:both) */
 }
