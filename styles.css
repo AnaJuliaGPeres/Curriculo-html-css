@@ -1,0 +1,80 @@
+body {
+    font-family: inherit;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+    text-align: justify;
+}
+
+.linha-horizontal {
+    height: 0.90cm; /* Altura da linha (1cm) */
+    background-color:MediumPurple; /* Cor de preenchimento da linha (preto) */
+    margin: 10px 0; /* Espaçamento acima e abaixo da linha (opcional) */
+} 
+.linha{
+    height: 0.07cm; /* Altura da linha (1cm) */
+    background-color: MediumPurple; /* Cor de preenchimento da linha (preto) */
+    margin: 10px 0; /* Espaçamento acima e abaixo da linha (opcional) */
+    padding: 0.07px; /* Espaçamento entre a linha e a borda do elemento */
+    margin-left: 1cm; /* Espaço em relação à margem esquerda da página */
+    margin-right: 1cm; /* Espaço em relação à margem direita da página */
+
+  
+}
+header {
+    
+    color: darkmagenta;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.column {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: justify;
+}
+
+.column h2 {
+    color:lightslategray;
+}
+
+.column ul {
+    list-style-type: disc; /* Define o tipo de marcador como bolinha preenchida */
+}
+
+.column ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
